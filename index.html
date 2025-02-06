@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Validator</title>
+  <script src="./scripts/email-validator.js" defer></script>
+  <link rel="shortcut icon" type="image/png" href="./favicon/wisedevelopment-logo.png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <p>Hello, welcome to my email validator</p>
+    <div class="input-field">
+      <label for="email">Email</label>
+      <input id="inputedEmail" type="email" placeholder="email" onkeydown="handleValidateEnterKey(event);" required>
+      <div class="error"></div>
+    </div>
+
+    <div class="submit-btn-section">
+      <button id="submit-btn" type="submit">Validate</button> 
+    </div>
+
+    <div class="validation-info-position">
+      <span id="validation-info"></span>
+    </div>
+
+    <div id="span-icon">
+      <span><i class="fa-solid fa-circle-check"></i></span>
+      <span id="display-email">Email Preview:</span>
+    </div>
+  </div>
+  
+  <footer>
+    <div>
+      <p>code by | EB - Wise Development <a href=""><i class="fa-brands fa-github"></i></a> <a href="http://linkedin.com/in/emmanuel-boateng-78b0b2338"><i class="fa-brands fa-linkedin"></i></a> <a href="https://www.instagram.com/r.mwise?igsh=MXJmdzAzZjRrMTU1Mw%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></p></a>
+    </div>
+  </footer>
+  
+  <div class="mail-icons">
+    <img id="icons" width="48" height="48" src="https://img.icons8.com/color/48/gmail-new.png" alt="gmaillogo"/>
+    <img src="./mail-logos/brand-aol.256x256.png" alt="aolmaillogo" srcset="">
+    <img src="./mail-logos/yahoo-svgrepo-com.png" alt="yahoomaillogo">
+  </div>
+  
+</body>
+</html>
