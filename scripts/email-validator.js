@@ -13,15 +13,15 @@ let revokeReExecution = false;
 
 // displays validation process and time-out function
 function validateEmail() {
-  // stops re-execution of validation on button click when validation is already running 
-  if (revokeReExecution) {
-    return;
-  }
-  revokeReExecution = true;
-  
   const emailInput = document.getElementById('inputedEmail').value
   
   if (emailInput) {
+    // stops re-execution of validation on button click when validation is already running 
+    if (revokeReExecution) {
+      return;
+    }
+    revokeReExecution = true;
+
     setTimeout(() => {
       const initialInfo = document.getElementById('validation-info');
       initialInfo.textContent = initialState;
