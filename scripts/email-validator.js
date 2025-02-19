@@ -9,7 +9,7 @@ const validationResult = "Good news! This email is valid and verified.";
 const errorMessageDisplay =  "email required before validation";
 const submitBtn = document.getElementById('submit-btn');
 
-// time-out function
+// displays validation process and time-out function
 function validateEmail() {
   const emailInput = document.getElementById('inputedEmail').value
   
@@ -53,6 +53,7 @@ function handleValidateEnterKey(event) {
   }
 } 
 
+// displays error message or ( throws error ) if userInput is null or empty on validation button click
 function revokeValidation() {
   const errorMessage = document.getElementById('validation-info');
   errorMessage.textContent = errorMessageDisplay;
