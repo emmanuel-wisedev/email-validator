@@ -67,21 +67,6 @@ p {
   outline: 0;
 }
 
-.input-field.success input {
-  border-color: #09c372;
-}
-
-.input-field.error input {
-  border-color: #ff3860;
-}
-
-.input-field .error {
-  color: #ff3860;
-  font-size: 9px;
-  height: 13px;
-}
-
-
 #inputedEmail {
   width: 300px;
 }
@@ -122,22 +107,3 @@ footer p {
 footer i {
   color: #fff;
 }
-
-.load {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  border: 16px solid cyan;
-  border-top: 16px solid transparent;
-  animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-  from{
-    transform: rotate(0);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
