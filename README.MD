@@ -1,6 +1,6 @@
-Hello, I go by the name Emmanuel Kwaku Boateng and welcome to my Email Validator built with:
+Welcome to my Email Validator Web Application that I wrote with:
+=> JavaScript
 => HTML
 => CSS 
-=> JavaScript
 
-Feel free to explore my project.
+Feel free to explore my project, please don’t forget to star my project it would be so much appreciated. Thank you. :)
