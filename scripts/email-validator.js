@@ -9,8 +9,16 @@ const validationResult = "Good news! This email is valid and verified.";
 const errorMessageDisplay =  "email required before validation";
 const submitBtn = document.getElementById('submit-btn');
 
+let validationProgress = false;
+
 // displays validation process and time-out function
 function validateEmail() {
+  // stops re-execution of validation on button click when validation is already running 
+  if (validationProgress) {
+    return;
+  }
+  validationProgress = true;
+  
   const emailInput = document.getElementById('inputedEmail').value
   
   if (emailInput) {
