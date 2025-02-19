@@ -46,7 +46,7 @@ function validateEmail() {
     }, 50000)
 
     setTimeout(() => {
-      alert('Validation done.');
+      alert('Validation done.\nPlease refresh page before attempting a new validation.');
     }, 52000)
 
   } else if (!emailInput) {
