@@ -88,10 +88,20 @@ p {
   width: 20px;
   height: 20px;
   margin: 5px;
+  margin-top: 50px;
 }
 
 .mail-icons { 
   text-align: center;
+}
+
+.fa-copyright {
+  font-size: 7px;
+  color: #888;
+}
+
+.success-info {
+  color: #fff;
 }
 
 footer {
@@ -102,6 +112,7 @@ footer {
 
 footer p {
   color: #888;
+  font-size: 9px;
 }
 
 footer i {
