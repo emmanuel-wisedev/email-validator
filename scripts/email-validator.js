@@ -45,6 +45,10 @@ function validateEmail() {
       displayLine.style.color = "green";
     }, 50000)
 
+    setTimeout (() => {
+      document.querySelector('.success-info').innerHTML = 'Success!';
+    }, 52000)
+
     setTimeout(() => {
       alert('Validation done.\nPlease refresh page before attempting a new validation.');
     }, 52000)
